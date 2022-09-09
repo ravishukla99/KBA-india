@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+	font-family: 'Work Sans', sans-serif;
+	text-decoration: none;
+}
+:root {
+	--heading: rgb(0 10 45);
+	--para: #777;
+	--para-tint: #e4e4e4;
+	--white: #ffffff;
+	--helper: #8490ff;
+	--helper-tint: #f3f4ff;
+	--bg: rgb(249 249 255);
+	--gradient: linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+	--gradientSupport: -webkit-linear-gradient(0deg, rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+	--shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+	--shadowSupport: 0 2rem 2rem 0 rgb(132 144 255 / 30%)
+}
+
+
+/*     video section style strat*/
+
+
+header {
+	position: relative;
+	background-color: black;
+	height: 75vh;
+	min-height: 25rem;
+	width: 100%;
+	overflow: hidden;
+  }
+  
+  header video {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 0;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+	position: relative;
+	z-index: 2;
+  }
+  
+  header .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 1;
+  }
+  
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  @media (pointer: coarse) and (hover: none) and (max-width:275px){
+	header {
+	  background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+	}
+  
+	header video {
+	  display: none;
+	}
+  }
+  
+	
+
+
+/*  video section style end */
+html{
+ font-size:112%;
+
+}
+img{
+    width: 25%;
+    
+	
+}
+@media (max-width:666px) {
+	img{
+		width: 55%;
+		
+		
+	}
+	
+}
+@media (max-width:566px) {
+	.form-control{
+		width: 162px;
+
+		
+	}
+	
+}
+
+.nav-link:hover{
+    color: red;
+	font-size: 19px;
+	text-decoration: underline;
+	
+}
+
+.fw-bold{
+	color:var(--heading);
+}
+/*   ==  all paragraf apply ==== strating space */
+/* .container p{
+	text-indent: 35px;
+	text-align: justify;
+} */
+.input-group{
+	width: 26%;
+	
+}
+.navbar{
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	left: 0;
+	box-shadow: 0 0 1rem 0 var(--para);
+	background-color: var(--para-tint);
+	z-index: 100;
+}
+.navbar li{
+	font-size: 18px;
+	font-weight: 500;
+}
+/*  ========= under line ======== */
+.line{
+	width: 30%;
+	height: 2px;
+	background: var(--helper);
+	position: relative;
+	bottom: 7px;
+	padding: 1px;
+	
+}
+.round{
+	width: 8px;
+	height: 8px;
+	background: var(--helper);
+	position: relative;
+	bottom: .3rem;
+	border-radius: 10rem;
+}
+/* ======   contact hover ====== */
+.shado:hover {
+	/* transform: scale(1.1); */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all .6s;
+}
+
+/* ========== button ======== */
+.btn{
+transition: all .8s ;
+
+}
+
+a:active{
+	color: red;
+  }
+
+.brand img{
+	height: auto;
+	width: 113px;
+}
+/* === modal Button === */
+button>a{
+	text-decoration: none;
+}
+
+/*     === contact form === */
+.contact-img{
+	width: 50px;
+}
+
+
+/* @media (max-width:770px){
+	.contact-img{
+		width: 50px;
+	}
+} */
+
+/*   ==== whatsaap pic ==== */
+.whatsapp-fixed{
+	position: fixed;
+	margin-right: 150px;
+	z-index: 1;
+	margin-bottom: 10px;
+	width: 60px;	
+	top: 85%;
+	left: 20px;
+}
+
+/* .about--aos1{
+	opacity: 0;
+}
+.about--aos1.animated{
+opacity: 1;
+} */
