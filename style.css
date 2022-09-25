@@ -113,9 +113,12 @@ img{
 
 .nav-link:hover{
     color: red;
-	font-size: 19px;
+	
 	text-decoration: underline;
 	
+}
+.dropdown-item:hover{
+	color: red;
 }
 
 .fw-bold{
@@ -216,3 +219,15 @@ button>a{
 .about--aos1.animated{
 opacity: 1;
 } */
+
+h2,h3{
+	font-weight: 500;
+	
+}
+.footer-color{
+	color: #f3f4ff;
+}
+.footer-color:hover{
+	color: #d11843;
+	transition: all .9s;
+}

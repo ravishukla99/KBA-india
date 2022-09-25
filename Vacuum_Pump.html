@@ -4,21 +4,24 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>KBA india | Mechatronics</title>
+	<title>KBA india | Vacuum Pump</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
 
-
-
 	 <!--    === AOS animation CDN=== -->
 	 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	 <link rel="icon" href="./pic/KBA RED WHITE 2.jpg">
 
-</head>
+	 <!--    == bootstraap dropdown menu== -->
+	 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"> -->
+	 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	 <link rel="icon" href="./pic/KBA RED WHITE 2.jpg">
+	</head>
 
 <body>
 
@@ -45,12 +48,27 @@
 						<a class="nav-link " href="Mechatronics.html">Mechatronics</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link " href="Automation.html"><span class="bg-danger text-light ">A</span>utomation</a>
+						<a class="nav-link " href="Automation.html">Automation</a>
 					</li>
 					
-					<li class="nav-item">
-						<a class="nav-link " href="Vacuum.html">Vacuum</a>
-					  </li>
+					
+						<div class="dropdown show mt-2 nav-item">
+							<a class=" dropdown-toggle" href="Vacuum.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  Vacuum
+							</a>
+						  
+							<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							  <a class="dropdown-item" href="Vacuum_Pump.html" >Vacuum Pump</a>
+							  <a class="dropdown-item" href="Gauges.html" >Gauges</a>
+							  <a class="dropdown-item" href="Helium_leak_Detector.html" >Helium leak Detector</a>
+							  <a class="dropdown-item" href="Gas_Analyzer.html" >Gas Analyzer </a>
+							  <a class="dropdown-item" href="Valve_and_Components.html" >Valve and Components ( Fittings) </a>
+							  <a class="dropdown-item" href="Spare_parts_and_Kits.html" >Spare parts and Kits </a>
+							  <a class="dropdown-item" href="Vacuum_pump_oil.html" >Vacuum pump oil </a>
+                              <a class="dropdown-item text-danger" href="Vacuum.html" >Main Page </a>
+							</div>
+						  </div>
+					  
 					  <li class="nav-item">
 						<a class="nav-link " href="Services.html">Services</a>
 					  </li>
@@ -69,127 +87,44 @@
 	</nav>
 
     <!-- Background image -->
-<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+<div
+class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
 style="
-  background-image: url('./pic/back-bg.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;
-  height:28vh; opacity: .8;">
+  background-image: url('./pic/tech.jpg'); 
+  height:28vh; opacity: .7;">
 <!-- style="
   background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/015.webp');
   height: 25vh;
 "> -->
-<h1 class="text-white text-uppercase " style="z-index: 1000;" data-aos="fade-left">Automation</h1>
-<p class=" mb-5 " >Home / <span class=" fw-bold" style="color:red ;">Automation</span></p>
+<h1 class="text-white text-uppercase">Vacuum</h1>
+<p class=" mb-5 ">Vacuum / <span class="text-danger fw-bold">Vacuum Pump</span></p>
 </div>
 <!-- Background image -->
 <!--   ==== Whatsaap Icon === -->
 <a href="http://wa.me/+916351835833" target="_blank"><img src="./pic/contact/whatsapp.png" class=" mx-auto contact-img mb-5 whatsapp-fixed"></a>
-    
-
 <div class="container text-center">
    
-    <div class="row">
 
-      
-		<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand" data-aos="zoom-in">
-			<img src="./pic/brand name/Panasonic_logo_(Blue).svg 10.png" class="img-fluid" alt="Responsive image">
+		<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-3 brand" data-aos="zoom-in">
+			<img src="./pic/brand name/le 5.png" class="img-fluid" alt="Responsive image">
 		  </div>
+	
+</div>
+<!-- <div class="container my-3"> -->
+	<div class="row-cols-lg-3 col-md-12 col-lg-12 text-center">
+	<img src="./pic/Vacuum pic/vacuum pump/6.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/7.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/10 1.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/12.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/13.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/14.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/17 1.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/20.png" class="img-fluid m-2 shado" alt="Responsive image">
+	<img src="./pic/Vacuum pic/vacuum pump/21.png" class="img-fluid m-2 shado" alt="Responsive image">
+   </div>
 
-		  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand" data-aos="zoom-in">
-			<img src="./pic/brand name/yaskawa-13.png" class="img-fluid brand" alt="Responsive image">
-		  </div>
-		  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand" data-aos="zoom-in">
-			<img src="./pic/brand name/Weintek-12.png" class="img-fluid" alt="Responsive image">
-		  </div>
-		  <div class="col-sm-6 col-md-4 col-lg-4 col-xl-3 mt-5 brand" data-aos="zoom-in">
-			<img src="./pic/Automation/fatek.png" class="img-fluid" alt="Responsive image">
-		  </div>
 
 
-	</div>
-    </div>
-
-<section class="container my-5">
-		
-		<div class="row justify-content-center text-center">
-			<h1 class="my-4" data-aos="fade-left">Our <span class="text-danger">Products</span></h1>
-			
-			<div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top mt-4" src="./pic/Automation/servo n.png" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title mt-5">Servo Motor</h5>
-				  
-				</div>
-			  </div>
-			<div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/ac -dc gear motor.jfif" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">AC-DC Gear Motor</h5>
-				  
-				</div>
-			  </div>
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/Actuator.webp" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">Actuator</h5>
-				  
-				</div>
-			  </div>
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/cnc plasma controller.webp" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">CNC Plasma Controller</h5>
-				  
-				</div>
-			  </div>
-			 
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/fiber laser source.webp" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">Fiber Laser Source</h5>
-				  
-				</div>
-			  </div>
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/fiber laser controller.jpg" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">Fiber Laser Controller</h5>
-				  
-				</div>
-			  </div>
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/Delta-VFD.jpg" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">VFD</h5>
-				  <p>(Variable Frequency Drive)</p>
-				  
-				</div>
-			  </div>
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top mt-4" src="./pic/Automation/AUTOMATION.png" alt="Card image cap">
-				<div class="card-body mt-5">
-				  <h5 class="card-title ">HMI</h5>
-				  <p>(Human-Machine Interfac)</p>
-				  
-				</div>
-			  </div>
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top mt-4" src="./pic/Automation/plc fatek.webp" alt="Card image cap">
-				<div class="card-body mt-3">
-				  <h5 class="card-title ">PLC</h5>
-				  <p>(Programmable Logic Controller)</p>
-				  
-				</div>
-			  </div>
-			 
-			  <div class="card m-2 shado" style="width: 18rem;" data-aos="zoom-in">
-				<img class="card-img-top" src="./pic/Automation/stepper-motor.jpeg" alt="Card image cap">
-				<div class="card-body">
-				  <h5 class="card-title">Stepper Motor</h5>
-				  
-				</div>
-			  </div>
-		</div>
-	</section>
 
 	<!-- Footer -->
 	<footer class="text-center text-lg-start bg-light text-muted border ">
@@ -204,7 +139,8 @@ style="
 						<h6 class="text-uppercase fw-bold mb-4">
 							<i class="fas fa-gem me-3"></i>KBA india
 						</h6>
-						<p data-aos="zoom-in">
+
+						<p>
 							42, 1st Floor, Dhanlaxmi Society, Simada Naka, Surat-395006
 						</p>
 					</div>
@@ -215,6 +151,7 @@ style="
 						<!-- Links -->
 						<h6 class="text-uppercase  fw-bold mb-4">
 							Navigation
+
 						</h6>
 
 
@@ -231,32 +168,34 @@ style="
 						<li class="nav-item mb-2">
 							<a class="nav-link " href="Automation.html">Automation</a>
 						</li>
-						
+
 						<li class="nav-item mb-2">
 							<a class="nav-link " href="Vacuum.html">Vacuum</a>
-						  </li>
-						  <li class="nav-item mb-2">
+						</li>
+						<li class="nav-item mb-2">
 							<a class="nav-link " href="Services.html">Services</a>
-						  </li>
+						</li>
 						<li class="nav-item mb-2">
 							<a class="nav-link " href="Contact_Us.html">Contact Us</a>
 						</li>
 					</div>
-					  <!-- Grid column -->
-					  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+					<!-- Grid column -->
+					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 						<!-- Links -->
 						<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-			
+
 						<p><i class="fas fa-home me-3"></i> Surat</p>
-			
+
 						<p><i class="fas fa-phone me-3"></i> +91 6351835833</p>
-			
+
 						<i class="fas fa-envelope me-3 "></i>
 						<p style="margin-left:50px"> kashtbhanjanautomation@gmail.com </p>
 						<p style="margin-left:50px">sales@kbaindia.com</p>
 						<p style="margin-left:50px">Info@kbaindia.com</p>
-					   
-					  </div>
+
+					</div>
+					<!-- Grid column -->
 				</div>
 				<!-- Grid row -->
 			</div>
